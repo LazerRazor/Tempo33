@@ -1,0 +1,33 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.navbar{
+
+    background-color: transparent;
+}
+
+.page1 ,.page3{
+    
+background-color: black;
+height:100vh;
+}
+.page2{
+    background-color:white;
+    height: 100vh;
+}
+
+.image-earth{
+    /* margin-top: 5vh; */
+    width:75vh;
+}
+.title-text{
+    font-size: 3.2rem;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    /* padding: 20px; */
+    /* border: 2px solid red; */
+}  
