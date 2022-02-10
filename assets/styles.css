@@ -1,4 +1,4 @@
-html,body{
+ html,body{
     margin:0;
     padding:0;
 }
@@ -18,7 +18,6 @@ height:100vh;
 }
 
 .image-earth{
-    /* margin-top: 5vh; */
     width:75vh;
 }
 .title-text{
@@ -28,6 +27,5 @@ height:100vh;
 .float-child {
     width: 50%;
     float: left;
-    /* padding: 20px; */
-    /* border: 2px solid red; */
-}  
+    
+} 
