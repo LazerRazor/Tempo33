@@ -7,15 +7,7 @@
     background-color: transparent;
 }
 
-.page1 ,.page3{
-    
-background-color: black;
-height:100vh;
-}
-.page2{
-    background-color:white;
-    height: 100vh;
-}
+
 
 .image-earth{
     width:75vh;
@@ -29,3 +21,20 @@ height:100vh;
     float: left;
     
 } 
+.title-txt{
+    margin-top: 8%;
+    margin-left:10%;
+    margin-right:10px;
+}
+
+@media screen and (max-width: 1000px){
+    .image{
+        display:none;
+    }
+    .page1 .page2 .page3{
+        max-width: 100%;
+    }
+    .title-txt{
+        margin:0 0 0 0;
+    }
+}
